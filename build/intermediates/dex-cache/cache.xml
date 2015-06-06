@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/adma/AndroidStudioProjects/DroidconNightMirror/openCVTutorial1CameraPreview/build/intermediates/exploded-aar/DroidconNightMirror/openCVLibrary300/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="495030ff21b757ba39b7c824bd4aa49f1d753d43">
+        <dex dex="/Users/adma/AndroidStudioProjects/DroidconNightMirror/openCVTutorial1CameraPreview/build/intermediates/pre-dexed/debug/classes-74fc4fc70662973282e34041e9969efcc1392981.jar" />
+    </item>
+
+</items>
