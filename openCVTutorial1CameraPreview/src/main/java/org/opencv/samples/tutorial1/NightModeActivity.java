@@ -129,30 +129,30 @@ public class NightModeActivity extends Activity implements CvCameraViewListener2
         hierarchy = new Mat();
         Imgproc.Canny(mGray, mIntermediateMat, 80, 100);
         Imgproc.findContours(mIntermediateMat, contours, hierarchy, Imgproc.RETR_TREE, Imgproc.CHAIN_APPROX_SIMPLE);
-        Imgproc.HoughLines(mIntermediateMat, mLines, 1, Math.PI / 180, 20);
-        for (int x = 0; x < mLines.cols(); x++)
-        {
-//            double[] vec = mLines.get(0, x);
-//            double x1 = vec[0],
-//                    y1 = vec[1],
-//                    x2 = vec[2],
-//                    y2 = vec[3];
-//            Point start = new Point(x1, y1);
-//            Point end = new Point(x2, y2);
+       // Imgproc.HoughLines(mIntermediateMat, mLines, 1, Math.PI / 180, 20);
+//        for (int x = 0; x < mLines.cols(); x++)
+//        {
+////            double[] vec = mLines.get(0, x);
+////            double x1 = vec[0],
+////                    y1 = vec[1],
+////                    x2 = vec[2],
+////                    y2 = vec[3];
+////            Point start = new Point(x1, y1);
+////            Point end = new Point(x2, y2);
+////
+////            Imgproc.line(mRgba, start, end, new Scalar(255, 123, 0), 3);
+////            a = np.cos(theta)
+////            b = np.sin(theta)
+////            x0 = a*rho
+////            y0 = b*rho
+////            x1 = int(x0 + 1000*(-b))
+////            y1 = int(y0 + 1000*(a))
+////            x2 = int(x0 - 1000*(-b))
+////            y2 = int(y0 - 1000*(a))
+////
+////            cv2.line(img,(x1,y1),(x2,y2),(0,0,255),2)
 //
-//            Imgproc.line(mRgba, start, end, new Scalar(255, 123, 0), 3);
-//            a = np.cos(theta)
-//            b = np.sin(theta)
-//            x0 = a*rho
-//            y0 = b*rho
-//            x1 = int(x0 + 1000*(-b))
-//            y1 = int(y0 + 1000*(a))
-//            x2 = int(x0 - 1000*(-b))
-//            y2 = int(y0 - 1000*(a))
-//
-//            cv2.line(img,(x1,y1),(x2,y2),(0,0,255),2)
-
-        }
+//        }
         //mIntermediateMat.release();
 
 //        contours = new ArrayList<MatOfPoint>();

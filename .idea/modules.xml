@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DroidconNightMirror.iml" filepath="$PROJECT_DIR$/DroidconNightMirror.iml" />
-      <module fileurl="file://$PROJECT_DIR$/openCVTutorial1CameraPreview/nightMirror.iml" filepath="$PROJECT_DIR$/openCVTutorial1CameraPreview/nightMirror.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary300/openCVLibrary300.iml" filepath="$PROJECT_DIR$/openCVLibrary300/openCVLibrary300.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVTutorial1CameraPreview/openCVTutorial1CameraPreview.iml" filepath="$PROJECT_DIR$/openCVTutorial1CameraPreview/openCVTutorial1CameraPreview.iml" />
     </modules>
   </component>
 </project>
